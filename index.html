@@ -1,0 +1,2897 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-center-simple.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=6.3.0" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.3.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon.ico?v=6.3.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16.ico?v=6.3.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.3.0" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '6.3.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="gsyun&#39;s blog">
+<meta property="og:url" content="gongshiyun.top/index.html">
+<meta property="og:site_name" content="gsyun&#39;s blog">
+<meta property="og:locale" content="zh-CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="gsyun&#39;s blog">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="gsyun's blog" type="application/atom+xml">
+
+
+
+
+  <link rel="canonical" href="gongshiyun.top/">
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>gsyun's blog</title>
+  
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+  <meta name="baidu-site-verification" content="2p2GcTDb8z">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">gsyun's blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home menu-item-active">
+    <a href="/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+    <a href="/about/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+    <a href="/tags/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+    <a href="/categories/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-th"></i> <br>分类</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+    <a href="/archives/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-schedule">
+    <a href="/schedule/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br>日程表</a>
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="gongshiyun.top/2019/08/31/浅析JAVA垃圾回收/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="龚士云">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/my2.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="gsyun's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/08/31/浅析JAVA垃圾回收/" itemprop="url">
+                  浅析JAVA垃圾回收
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-08-31 13:41:29 / 修改时间：14:14:44" itemprop="dateCreated datePublished" datetime="2019-08-31T13:41:29+08:00">2019-08-31</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/JAVA/" itemprop="url" rel="index"><span itemprop="name">JAVA</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2019/08/31/浅析JAVA垃圾回收/" class="leancloud_visitors" data-flag-title="浅析JAVA垃圾回收">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><table>
+<thead>
+<tr>
+<th>资料名称</th>
+<th>来源地址</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>《深入理解JVM&amp;G1 GC》</td>
+<td>图书</td>
+</tr>
+<tr>
+<td>《深入理解Java虚拟机》</td>
+<td>图书</td>
+</tr>
+<tr>
+<td>JAVA 8官方文档</td>
+<td><a href="https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/" target="_blank" rel="noopener">https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/</a></td>
+</tr>
+<tr>
+<td>Github</td>
+<td><a href="https://github.com/CyC2018/CS-Notes" target="_blank" rel="noopener">https://github.com/CyC2018/CS-Notes</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="什么是垃圾回收"><a href="#什么是垃圾回收" class="headerlink" title="什么是垃圾回收"></a>什么是垃圾回收</h2><p>Java一个特点就是引入了垃圾回收机制，Java垃圾回收是指JVM自动对内存中无用对象所占用空间的释放，使Java程序员在编写程序的时候不再需要考虑内存管理，可以有效的防止内存泄露。</p>
+<h2 id="为什么要进行垃圾回收"><a href="#为什么要进行垃圾回收" class="headerlink" title="为什么要进行垃圾回收"></a>为什么要进行垃圾回收</h2><p>JVM运行过程中会为对象分配内存空间，当对象不会再被使用后，垃圾收集器需要对其所占用空间进行回收，否则迟早会导致内存占用越来越大直到内存溢出，程序就会无法运行。就比如家里的垃圾一直不扔，迟早会塞满整个家，人也没有空间在家里生活下去。</p>
+<h2 id="对什么进行回收"><a href="#对什么进行回收" class="headerlink" title="对什么进行回收"></a>对什么进行回收</h2><p>垃圾回收主要针对堆和方法区的对象进行回收。线程私有的程序计数器、虚拟机栈和本地方法栈在线程结束之后就被清除，不参与垃圾回收。</p>
+<h2 id="如何判断一个对象是否可以被回收"><a href="#如何判断一个对象是否可以被回收" class="headerlink" title="如何判断一个对象是否可以被回收"></a>如何判断一个对象是否可以被回收</h2><ul>
+<li><h3 id="引用计数法"><a href="#引用计数法" class="headerlink" title="引用计数法"></a>引用计数法</h3><p>为对象添加一个引用计数器，每当有一个地方引用它时，计数器值加一；当引用失效时，计数器减一；任何时刻当计数器值为0时说明该对象不可能再被使用，可以被垃圾回收。</p>
+<p>如下代码，当存在两个对象之间的循环引用时，两者的引用计数永远不为0，导致无法对它们进行回收。</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Test</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">public</span> Object instance = <span class="keyword">null</span>;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        Test a = <span class="keyword">new</span> Test();</span><br><span class="line">        Test b = <span class="keyword">new</span> Test();</span><br><span class="line">        a.instance = b;</span><br><span class="line">        b.instance = a;</span><br><span class="line">        a = <span class="keyword">null</span>;</span><br><span class="line">        b = <span class="keyword">null</span>; </span><br><span class="line">		dosomething();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>因为循环引用问题难以处理，JAVA虚拟机没有选用引用计数法来管理内存。</p>
+</li>
+<li><h3 id="可达性分析"><a href="#可达性分析" class="headerlink" title="可达性分析"></a>可达性分析</h3><p>在主流的商用语言中如Java、C#的主流实现中都是通过可达性分析来判断对象是存活。这个算法的基本思路就是通过一系列的<strong>GC Roots</strong>对象作为起点，从这些节点开始向下搜索引用的对象，走过的路径称为<strong>引用链</strong>。<strong>当一个对象到GC Roots没有任何引用链相连时，证明此对象是不可用的，所以会被判定为是可回收的对象</strong>。</p>
+<p>在Java中，GC Roots包含以下几种：</p>
+<ul>
+<li><p>虚拟机栈（栈帧中的本地变量表）中引用的对象</p>
+</li>
+<li><p>方法区中类静态属性引用的对象</p>
+</li>
+<li><p>方法区中常量引用的对象</p>
+</li>
+<li><p>本地方法栈中JNI引用的对象</p>
+</li>
+</ul>
+<h3 id="对象的finalize-方法"><a href="#对象的finalize-方法" class="headerlink" title="对象的finalize()方法"></a>对象的finalize()方法</h3><p>在可达性分析中不可达的对象，也不一定会被回收，这里涉及到finalize方法的知识：</p>
+<ul>
+<li><p>finalize()是Object的protected方法，子类可以覆盖该方法以实现资源清理工作，GC在回收对象之前调用该方法，如果对象覆盖了该方法并且在该方法中将自身重新被引用链中任意对象引用， 就能完成自救。</p>
+</li>
+<li><p>finalize()方法最多只能被GC执行一次，第二次被标记回收时不会再执行该方法</p>
+</li>
+<li><p>finalize()方法不被推荐使用，它能做的所有工作，try-finally都能做得更好更及时</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="垃圾回收算法"><a href="#垃圾回收算法" class="headerlink" title="垃圾回收算法"></a>垃圾回收算法</h2><h3 id="标记-清除"><a href="#标记-清除" class="headerlink" title="标记-清除"></a>标记-清除</h3><p>该算法首先标记出需要回收的对象,标记完成后统一回收掉所有的被标记对象</p>
+<p>缺点：</p>
+<ul>
+<li><p>效率问题：标记和清除的效率不高</p>
+</li>
+<li><p>空间问题：标记清除后会产生大量不连续的内存碎片，空间碎片太多可能导致以后在程序运行过程中产生大量不连续的内存碎片。空间碎片太多可能会导致以后在程序运行中需要分配大对象时因为无法找到足够的连续内存而不得不提前触发另一次垃圾收集动作。</p>
+</li>
+</ul>
+<h3 id="标记-整理"><a href="#标记-整理" class="headerlink" title="标记-整理"></a>标记-整理</h3><p>该算法的标记过程与标记-整理算法一致，但不是直接对可回收对象进行清理，而是让所有存活的对象都向一端移动，然后直接清理掉端边界以外的内存。</p>
+<p>优点：不会产生内存碎片</p>
+<p>缺点：需要移动大量对象，处理效率较低</p>
+<h3 id="复制"><a href="#复制" class="headerlink" title="复制"></a>复制</h3><p>复制算法将可用内存分为大小相等的两块，每次只使用其中的一块，当这块内存用完了就将还存活的对象复制到另外一块上面，然后再把已使用的内存空间一次清理掉。</p>
+<p>优点：不存在内存碎片问题，实现简单，运行高效。</p>
+<p>缺点：内存缩小为了原来的一半。如果对象存活率高就要进行较多的复制操作，效率会变低。</p>
+<h3 id="分代收集"><a href="#分代收集" class="headerlink" title="分代收集"></a>分代收集</h3><p>当前的商业虚拟机垃圾收集都使用分代收集算法。该算法思想是根据对象存活周期的不同将内存划分为几块，一般是分为年轻代和老年代，然后根据不同年代的特点采用最合适的收集算法。</p>
+<p>新生代：每次垃圾收集都有大批对象死亡，少量存活，适合选用复制算法，只需要付出少量存活对象的复制成本就可以完成收集。</p>
+<p>老年代：对象存活率高，适合使用标记-清理或标记-整理来进行回收。</p>
+<h2 id="内存分配和回收策略"><a href="#内存分配和回收策略" class="headerlink" title="内存分配和回收策略"></a>内存分配和回收策略</h2><h3 id="JAVA堆结构"><a href="#JAVA堆结构" class="headerlink" title="JAVA堆结构"></a>JAVA堆结构</h3><p>在JDK1.8版本之前，JAVA堆被划分为年轻代、老年代和永久代，其中年轻代又被划分为eden、s1、s2。</p>
+<p>在 JDK 1.8 中， HotSpot 已经没有 永久代这个区间了，取而代之的是 Metaspace（元空间）。</p>
+<p>元空间的本质和永久代类似，都是对JVM规范中方法区的实现。不过元空间与永久代之间最大的区别在于：元空间并不在虚拟机中，而是使用本地内存。因此，默认情况下，元空间的大小仅受本地内存限制，但可以通过参数设置来指定元空间的大小。</p>
+<h3 id="MinorGC-和-Full-GC"><a href="#MinorGC-和-Full-GC" class="headerlink" title="MinorGC 和 Full GC"></a>MinorGC 和 Full GC</h3><p>Minor GC：回收新生代，因为新生代对象存活时间很短，因此 Minor GC 会频繁执行，执行的速度一般也会比较快。</p>
+<p>Full GC：回收老年代和新生代，老年代对象其存活时间长，因此 Full GC 很少执行，执行速度会比 Minor GC 慢很多。</p>
+<h3 id="内存分配策略"><a href="#内存分配策略" class="headerlink" title="内存分配策略"></a>内存分配策略</h3><h4 id="对象优先在Eden分配"><a href="#对象优先在Eden分配" class="headerlink" title="对象优先在Eden分配"></a>对象优先在Eden分配</h4><p>大多数情况下，对象在新生代 Eden 上分配，当 Eden 空间不够时，发起 Minor GC。</p>
+<h4 id="大对象直接进入老年代"><a href="#大对象直接进入老年代" class="headerlink" title="大对象直接进入老年代"></a>大对象直接进入老年代</h4><p>大对象是指需要连续内存空间的对象，最典型的大对象是那种很长的字符串以及数组。</p>
+<p>经常出现大对象会提前触发垃圾收集以获取足够的连续空间分配给大对象。</p>
+<p>-XX:PretenureSizeThreshold，大于此值的对象直接在老年代分配，避免在 Eden 和 Survivor 之间的大量内存复制。</p>
+<h4 id="长期存活的对象进入老年代"><a href="#长期存活的对象进入老年代" class="headerlink" title="长期存活的对象进入老年代"></a>长期存活的对象进入老年代</h4><p>为对象定义年龄计数器，对象在 Eden 出生并经过 Minor GC 依然存活，将移动到 Survivor 中，年龄就增加 1 岁，增加到一定年龄则移动到老年代中。</p>
+<p>-XX:MaxTenuringThreshold 用来定义年龄的阈值。</p>
+<h4 id="动态对象年龄判定"><a href="#动态对象年龄判定" class="headerlink" title="动态对象年龄判定"></a>动态对象年龄判定</h4><p>虚拟机并不是永远要求对象的年龄必须达到 MaxTenuringThreshold 才能晋升老年代，如果在 Survivor 中相同年龄所有对象大小的总和大于<br>Survivor 空间的一半，则年龄大于或等于该年龄的对象可以直接进入老年代，无需等到 MaxTenuringThreshold 中要求的年龄。</p>
+<h4 id="空间分配担保"><a href="#空间分配担保" class="headerlink" title="空间分配担保"></a>空间分配担保</h4><p>在发生 Minor GC 之前，虚拟机先检查老年代最大可用的连续空间是否大于新生代所有对象总空间，如果条件成立的话，那么 Minor GC 可以确认是安全的。</p>
+<p>如果不成立的话虚拟机会查看 HandlePromotionFailure 的值是否允许担保失败，如果允许那么就会继续检查老年代最大可用的连续空间是否大于历次晋升到老年代对象的平均大小，如果大于，将尝试着进行一次 Minor GC；如果小于，或者 HandlePromotionFailure 的值不允许冒险，那么就要进行一次 Full GC。</p>
+<h4 id="Full-GC的触发条件"><a href="#Full-GC的触发条件" class="headerlink" title="Full GC的触发条件"></a>Full GC的触发条件</h4><p>对于 Minor GC，其触发条件非常简单，当 Eden 空间满时，就将触发一次 Minor GC。而 Full GC 则相对复杂，有以下条件：</p>
+<ul>
+<li><strong>调用System.gc()</strong></li>
+</ul>
+<p>只是建议虚拟机执行 Full GC，但是虚拟机不一定真正去执行。不建议使用这种方式，而是让虚拟机管理内存。</p>
+<ul>
+<li><strong>老年代空间不足</strong></li>
+</ul>
+<p>老年代空间不足的常见场景为大对象直接进入老年代、长期存活的对象进入老年代等。</p>
+<p>为了避免以上原因引起的 Full GC，应当尽量不要创建过大的对象以及数组。除此之外，可以通过 -Xmn 虚拟机参数调大新生代的大小，让对象尽量在新生代被回收掉，不进入老年代。还可以通过 -XX:MaxTenuringThreshold 调大对象进入老年代的年龄，让对象在新生代多存活一段时间。</p>
+<ul>
+<li><strong>空间分配担保失败</strong></li>
+</ul>
+<p>使用复制算法的 Minor GC 需要老年代的内存空间作担保，如果担保失败会执行一次 Full GC。</p>
+<ul>
+<li><strong>JDK 1.7 及以前的永久代空间不足</strong></li>
+</ul>
+<p>在 JDK 1.7 及以前，HotSpot 虚拟机中的方法区是用永久代实现的，永久代中存放的为一些 Class 的信息、常量、静态变量等数据。</p>
+<p>当系统中要加载的类、反射的类和调用的方法较多时，永久代可能会被占满，在未配置为采用 CMS GC 的情况下也会执行 Full GC。如果经过 Full GC 仍然回收不了，那么虚拟机会抛出 java.lang.OutOfMemoryError。</p>
+<p>为避免以上原因引起的 Full GC，可采用的方法为增大永久代空间或转为使用 CMS GC。</p>
+<ul>
+<li><strong>Concurrent Mode Failure</strong></li>
+</ul>
+<p>执行 CMS GC 的过程中同时有对象要放入老年代，而此时老年代空间不足（可能是 GC 过程中浮动垃圾过多导致暂时性的空间不足），便会报 Concurrent Mode Failure 错误，并触发 Full GC。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="gongshiyun.top/2019/08/31/浅析MySQL索引/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="龚士云">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/my2.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="gsyun's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/08/31/浅析MySQL索引/" itemprop="url">
+                  浅析MySQL索引
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-08-31 13:30:14 / 修改时间：14:15:12" itemprop="dateCreated datePublished" datetime="2019-08-31T13:30:14+08:00">2019-08-31</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/MySQL/" itemprop="url" rel="index"><span itemprop="name">MySQL</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2019/08/31/浅析MySQL索引/" class="leancloud_visitors" data-flag-title="浅析MySQL索引">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><table>
+<thead>
+<tr>
+<th>资料名称</th>
+<th>来源地址</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>《MySQL王者晋级之路》</td>
+<td>图书</td>
+</tr>
+<tr>
+<td>《高性能MySQL》</td>
+<td>图书</td>
+</tr>
+<tr>
+<td>MySQL官方文档</td>
+<td><a href="https://dev.mysql.com/doc/" target="_blank" rel="noopener">https://dev.mysql.com/doc/</a></td>
+</tr>
+<tr>
+<td>《MySQL索引背后的数据结构及算法原理》</td>
+<td><a href="http://blog.codinglabs.org/articles/theory-of-mysql-index.html" target="_blank" rel="noopener">http://blog.codinglabs.org/articles/theory-of-mysql-index.html</a></td>
+</tr>
+<tr>
+<td>各路互联网资料</td>
+</tr>
+</tbody>
+</table>
+<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>MySQL的索引是存储引擎用于快速查找记录的一种数据结构。工作原理是先从索引上找到对应值，再根据匹配的索引记录找到对应的数据行。索引的目的在于提高查询效率，可类比字典、书籍的目录等这种形式。</p>
+<h2 id="数据结构介绍"><a href="#数据结构介绍" class="headerlink" title="数据结构介绍"></a>数据结构介绍</h2><p>目前大部分数据库系统及文件系统都采用B-Tree或其变种B+Tree作为索引结构。实际上MySQL的很多存储引擎如最常见的innoDB使用的是B+Tree，即每个叶子节点都包含指向下一个叶子节点的指针，从而方便叶子节点的范围遍历。</p>
+<h3 id="B-Tree"><a href="#B-Tree" class="headerlink" title="B-Tree"></a>B-Tree</h3><p><img src="https://img-blog.csdnimg.cn/20190819181704873.png" alt="在这里插入图片描述"></p>
+<h3 id="B-Tree-1"><a href="#B-Tree-1" class="headerlink" title="B+Tree"></a>B+Tree</h3><p><img src="https://img-blog.csdnimg.cn/20190819181727194.png" alt="在这里插入图片描述"></p>
+<h3 id="为什么要使用这种数据结构"><a href="#为什么要使用这种数据结构" class="headerlink" title="为什么要使用这种数据结构"></a>为什么要使用这种数据结构</h3><p>从理论上讲，二叉树查找速度和比较次数都是最小的，为什么不用二叉树呢？ </p>
+<p>首先索引本质上是一种数据结构，占用空间也很大，不可能全部存储在内存中，一般以索引文件形式存储在磁盘上，所以查找索引时就涉及到从磁盘中读取数据，就会有I/O消耗。相对于内存存取，I/O存取的消耗要高几个数量级，所以评价一个数据结构作为索引的优劣最重要的指标就是在查找过程中磁盘I/O操作次数的渐进复杂度。换句话说，索引的结构组织要尽量减少查找过程中磁盘I/O的存取次数，对于树来说，IO次数就是树的高度，而“矮胖”就是b树的特征之一。</p>
+<p>磁盘读取数据时，并不是只读取所需要的数据就行，而是会从读取数据的起始处往后读取一定长度的数据。这就涉及到局部性原理和磁盘的预读机制的概念：</p>
+<h4 id="局部性原理"><a href="#局部性原理" class="headerlink" title="局部性原理"></a>局部性原理</h4><p>当一个数据被用到时，其附近的数据也通常会马上被使用。</p>
+<h4 id="磁盘预读机制"><a href="#磁盘预读机制" class="headerlink" title="磁盘预读机制"></a>磁盘预读机制</h4><p>因为磁盘存取速度比内存慢很多，根据局部性原理，为了提高效率，需要尽量减少磁盘I/O，磁盘每次都要从读取的数据位置顺序向后读取一页数据的整数倍放入内存中。页是计算机管理存储器的逻辑块，硬件及操作系统往往将主存和磁盘存储区分割为连续的大小相等的块，每个存储块称为一页（在许多操作系统中，页的大小通常为4k）。</p>
+<p>B-Tree每次新建节点时，直接申请一个页的空间，这样就保证一个节点物理上也存储在一个页里，加之计算机存储分配都是按页对齐的，就实现了一个节点只需一次I/O。</p>
+<p>B-Tree中一次检索最多需要h-1次I/O（根节点常驻内存，h为树的高度），渐进复杂度为$O(h)=O(log_dN)$。一般实际应用中，出度d是非常大的数字，通常超过100，因此h非常小（通常不超过3）。</p>
+<p>综上所述，用B-Tree作为索引结构效率是非常高的。</p>
+<p>比如红黑树这种结构，h明显要深的多。由于逻辑上很近的节点（父子）物理上可能很远，无法利用局部性，所以红黑树的I/O渐进复杂度也为$O(h)$，效率明显比B-Tree差很多。</p>
+<h2 id="MySQL索引实现"><a href="#MySQL索引实现" class="headerlink" title="MySQL索引实现"></a>MySQL索引实现</h2><h3 id="MyISAM索引实现"><a href="#MyISAM索引实现" class="headerlink" title="MyISAM索引实现"></a>MyISAM索引实现</h3><p><img src="https://img-blog.csdnimg.cn/20190819181740530.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zODM5OTc0Ng==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>MyISAM索引的数据结构是B+Tree结构，在叶子节点处保存的是数据记录的地址</p>
+<p><img src="https://img-blog.csdnimg.cn/20190819181755308.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zODM5OTc0Ng==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>辅助索引与主键索引除了主键索引具有唯一性外，其他地方没有任何区别，在叶子节点处仅保存数据记录的地址。搜索数据记录时先使用B+Tree的搜索算法找出数据地址，再根据数据地址找出数据记录。</p>
+<p>MyISAM的索引方式也叫做“非聚集”的，之所以这么称呼是为了与InnoDB的聚集索引区分。</p>
+<p>###　InnoDB索引实现</p>
+<p><img src="https://img-blog.csdnimg.cn/20190819181808960.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zODM5OTc0Ng==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>InnoDB引擎也是使用B+Tree作为索引结构。</p>
+<p>与MyISAM引擎的索引实现方式不同在于InnoDB的数据文件本身就是主键的索引文件。</p>
+<p>由上图可以看到叶节点包含了完整的数据记录。这种索引叫做聚集索引。因为InnoDB的数据文件本身要按主键聚集，所以InnoDB要求表必须有主键（MyISAM可以没有），如果没有显式指定，则MySQL系统会自动选择一个可以唯一标识数据记录的列作为主键，如果不存在这种列，则MySQL自动为InnoDB表生成一个隐含字段作为主键，这个字段长度为6个字节，类型为长整形。</p>
+<p><img src="https://img-blog.csdnimg.cn/20190819181821472.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zODM5OTc0Ng==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<p>第二个与MyISAM索引的不同是InnoDB的辅助索引data域存储相应记录主键的值而不是地址。换句话说，InnoDB的所有辅助索引都引用主键作为data域。</p>
+<p>所以聚集索引这种实现方式使得按主键的搜索十分高效，但是辅助索引搜索需要检索两遍索引：首先检索辅助索引获得主键，然后用主键到主索引中检索获得记录。</p>
+<h2 id="索引分类"><a href="#索引分类" class="headerlink" title="索引分类"></a>索引分类</h2><h3 id="主键索引"><a href="#主键索引" class="headerlink" title="主键索引"></a>主键索引</h3><p>主键索引就是聚集索引，每张表中有且仅有一个主键，可以由表中一个或多个字段组成。</p>
+<ul>
+<li><p>主键值必须唯一</p>
+</li>
+<li><p>不能包含null值</p>
+</li>
+</ul>
+<p>创建主键索引语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alter table table_name add primary key(column_list);</span><br></pre></td></tr></table></figure>
+<h3 id="唯一索引"><a href="#唯一索引" class="headerlink" title="唯一索引"></a>唯一索引</h3><p>唯一索引是约束条件的一种，就是不允许有重复的值，但是可以允许有null值。表的主键只能有一个，但是唯一索引可以有多个。</p>
+<p>创建唯一索引的语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">create unique index index_name on table_name (column_list);</span><br><span class="line">-- 或</span><br><span class="line">alter table table_name add unique (column_list);</span><br></pre></td></tr></table></figure>
+<h3 id="前缀索引"><a href="#前缀索引" class="headerlink" title="前缀索引"></a>前缀索引</h3><p>对于BLOB，TEXT或者很长的VARCHAR类型的列，为它们的前n个字符（具体几个由创建索引时指定）建立索引，这样的索引就叫前缀索引。这样建立的索引更小，查询更快。</p>
+<p>创建前缀索引的语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">create index index_name on table_name(column_name(prefix_length));</span><br><span class="line">-- 或</span><br><span class="line">alter table table_name add key(column_name(prefix_length));</span><br></pre></td></tr></table></figure>
+<h3 id="联合索引"><a href="#联合索引" class="headerlink" title="联合索引"></a>联合索引</h3><p>联合索引又叫复合索引，是在表中两个或两个以上的列上创建的索引。利用索引的附加列，可以缩小检索的范围，更快搜索到数据。</p>
+<p>创建联合索引的语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">create index index_name on table_name (column_list);</span><br><span class="line">-- 或</span><br><span class="line">alter table table_name add index index_name (column_list);</span><br></pre></td></tr></table></figure>
+<p>假设表t有c1，c2两个字段，为它们创建联合索引：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">create index idx_c1_c2 on t (c1, c2);</span><br></pre></td></tr></table></figure>
+<p>联合索引的使用必须满足最左前缀原则。一般把选择性高的列放在前面。一条查询语句可以只使用索引中的一部分，但是必须从最左侧开始。联合idx_c1_c2可以用到c1索引和c1，c2索引，但用不到c2索引。</p>
+<p>以下查询可以用到idx_c1_c2的索引：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">select * from t where c1 = &apos;xxx&apos;;</span><br><span class="line">select * from t where c1 = &apos;xxx&apos; and c2 = &apos;xxxx&apos;;</span><br><span class="line">select * from t where c1 = &apos;xxx&apos; and c2 in (&apos;xxxx&apos;, &apos;xxx&apos;);</span><br><span class="line">select * from t where c1 = (&apos;xxx&apos;, &apos;xxxx&apos;) and c2 = &apos;xxx&apos;;</span><br><span class="line">select * from t order by c1, c2;</span><br><span class="line">select * from t where c1 = &apos;xxx&apos; order by c2;</span><br></pre></td></tr></table></figure>
+<p>用不到idx_c1_c2索引的查询：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">select * from t where c2 = &apos;xxx&apos;;</span><br><span class="line">select * from t where c2 = &apos;xxx&apos; order by c1;</span><br></pre></td></tr></table></figure>
+<p>另外，使用or关键字也是不能使用到联合索引的：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">select * from t where c1 = &apos;xxx&apos; or c2 = &apos;xxxx&apos;;</span><br></pre></td></tr></table></figure>
+<p>这种情况就要在c1，c2各自建两个单列索引。</p>
+<h3 id="哈希索引"><a href="#哈希索引" class="headerlink" title="哈希索引"></a>哈希索引</h3><p>哈希索引采用哈希算法，将键值换算成哈希值。哈希值只能进行等值查询，不能进行排序、模糊查找、范围查询等。检索时不需要像B+Tree那样从根节点到叶子节点逐级查找，只需一次哈希算法即可立刻定位到相应的位置，查询速度非常快。</p>
+<p>innodb引擎支持哈希索引，称为自适应哈希索引，但是需要通过innodb_adaptive_hash_index参数来启用，默认是启用的。hash索引的创建由InnoDB存储引擎引擎自动优化创建。哈希索引只能用来搜索等值的查询，对于其他查找类型，如范围查找，是不能使用哈希索引的</p>
+<p><img src="https://img-blog.csdnimg.cn/20190819181904638.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl8zODM5OTc0Ng==,size_16,color_FFFFFF,t_70" alt="在这里插入图片描述"></p>
+<h3 id="全文索引"><a href="#全文索引" class="headerlink" title="全文索引"></a>全文索引</h3><p>全文索引是在基于文本的列（char、varchar或text列）上创建的，有助于提高对这些列中文本的查询速度和DML操作效率。</p>
+<p>InnoDB引擎对全文索引的支持是MySQL5.6新引入的特性，之前只有MyISAM引擎支持全文索引。对于全文索引的内容可以使用MATCH()…AGAINST语法进行查询。MySQL5.6不支持中文全文索引，因为与英文不同，中文的文字是连着一起写的，中间没有MySQL能找到分词的地方。MySQL 5.7开始，MySQL内置了ngram全文检索插件，用来支持中文分词，并且对MyISAM和InnoDB引擎有效。</p>
+<p>添加全文索引:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alter table table_name add fulltext index index_name(column_list) with parser ngram;</span><br></pre></td></tr></table></figure>
+<p>查询语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">MATCH(col1,col2,…) AGAINST (expr[search_modifier])</span><br></pre></td></tr></table></figure>
+<h2 id="索引使用策略和优化技巧"><a href="#索引使用策略和优化技巧" class="headerlink" title="索引使用策略和优化技巧"></a>索引使用策略和优化技巧</h2><p>创建一个员工表用于示例，并导入数据，数据来源：<a href="https://dev.mysql.com/doc/employee/en/" target="_blank" rel="noopener">https://dev.mysql.com/doc/employee/en/</a></p>
+<p>表结构如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">CREATE TABLE employees (</span><br><span class="line">    emp_no      INT             NOT NULL,</span><br><span class="line">    birth_date  DATE            NOT NULL,</span><br><span class="line">    first_name  VARCHAR(14)     NOT NULL,</span><br><span class="line">    last_name   VARCHAR(16)     NOT NULL,</span><br><span class="line">    gender      ENUM (&apos;M&apos;,&apos;F&apos;)  NOT NULL,    </span><br><span class="line">    hire_date   DATE            NOT NULL,</span><br><span class="line">    PRIMARY KEY (emp_no)</span><br><span class="line">);</span><br></pre></td></tr></table></figure>
+<h3 id="全值匹配"><a href="#全值匹配" class="headerlink" title="全值匹配"></a>全值匹配</h3><p>全值匹配是指索引匹配查询条件的所有列</p>
+<p>为字段birth_date, first_name, last_name创建联合索引：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">alter table employees add index idx_bfl(`birth_date`, `first_name`, `last_name`);</span><br></pre></td></tr></table></figure>
+<p>使用如下语句查询：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">select * from employees where birth_date = &apos;1953-09-02&apos; and first_name = &apos;Georgi&apos; and last_name = &apos;Facello&apos;;</span><br></pre></td></tr></table></figure>
+<p>执行计划如下，可见该查询使用到了索引：</p>
+<p><img src="https://img-blog.csdnimg.cn/2019081918193058.png" alt="在这里插入图片描述"></p>
+<h3 id="联合索引匹配最左列原则"><a href="#联合索引匹配最左列原则" class="headerlink" title="联合索引匹配最左列原则"></a>联合索引匹配最左列原则</h3><p>对于复合索引来说，不总是匹配所有字段列，但是可以匹配索引中靠左的列</p>
+<p>如果在(a,b,c)三个字段上建立联合索引，那么它能够加快 a | (a,b) | (a,b,c) 三组查询速度。</p>
+<p>查询如下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">select * from employees where birth_date = &apos;1953-09-02&apos; and first_name = &apos;Georgi&apos;;</span><br></pre></td></tr></table></figure>
+<p>执行计划：</p>
+<p><img src="https://img-blog.csdnimg.cn/20190819182022353.png" alt="在这里插入图片描述"></p>
+<p>将where中的first_name 改为last_name:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">select * from employees where birth_date = &apos;1953-09-02&apos; and last_name = &apos;Facello&apos;;</span><br></pre></td></tr></table></figure>
+<p>执行计划：</p>
+<p><img src="https://img-blog.csdnimg.cn/20190819182032858.png" alt="在这里插入图片描述"></p>
+<p>可见该查询只用到了复合索引中的一个列。</p>
+<p>联合索引优化技巧：</p>
+<ul>
+<li><p>建联合索引的时候，区分度最高的字段在最左边。</p>
+<blockquote>
+<p>计算一个列的区分度可以使用</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; select count(distinct(column_name))/count(1) from table; </span><br><span class="line">&gt;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<blockquote>
+<p>计算出来的结果约接近1区分度越好。</p>
+</blockquote>
+</li>
+<li><p>如果建立了(a,b)联合索引，就不必再单独建立 a 索引。同理，如果建立了(a,b,c)联合索引，就不必再单独建立 a、(a,b) 索引。</p>
+</li>
+<li><p>存在非等号和等号混合判断条件时，在建索引时，请把等号条件的列前置。如     where a&gt;? and b=?，那么即使 a 的区分度更高，也必须把 b 放在索引的最前列。</p>
+</li>
+<li><p>最左侧查询需求，并不是指 SQL 语句的 where 顺序要和联合索引一致，where的条件顺序MySQL会进行优化为使用适合的索引。</p>
+</li>
+<li>范围条件有：&lt;、&lt;=、&gt;、&gt;=、between等。范围列可以用到索引（联合索引必须是最左前缀），但是范围列后面的列无法用到索引，索引最多用于一个范围列，如果查询条件中有两个范围列则无法全用到索引。</li>
+</ul>
+<h3 id="使用覆盖索引"><a href="#使用覆盖索引" class="headerlink" title="使用覆盖索引"></a>使用覆盖索引</h3><p>MySQL可以使用索引来直接获取列的数据，这样就不需要再去读取数据行了。如果一个索引包含（或者说覆盖）所有需要查询的数据，就称为“覆盖索引”。</p>
+<p>执行如下查询：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">select birth_date, first_name, last_name from employees where birth_date = &apos;1953-09-02&apos; and first_name = &apos;Georgi&apos;;</span><br></pre></td></tr></table></figure>
+<p>此时查询只获取birth_date, first_name, last_name列，而索引idx_bfl已经包含了这三列字段的数据，所以MySQL无需再通过索引idx_bfl查询到的data域中的主键值去主键索引文件中查询数据记录。</p>
+<p>该查询的执行计划如下：</p>
+<p><img src="https://img-blog.csdnimg.cn/20190819182102664.png" alt="在这里插入图片描述"></p>
+<p>其中Extra为Using index，说明使用了覆盖索引。</p>
+<h3 id="避免强制类型转换"><a href="#避免强制类型转换" class="headerlink" title="避免强制类型转换"></a>避免强制类型转换</h3><p>强制类型转换的查询会导致全表扫描。</p>
+<p>如果 salary字段是 varchar 类型，则下面的 SQL 不能命中索引。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">select * from salaries where salary = 62102;</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/20190819182129436.png" alt="在这里插入图片描述"></p>
+<p>可以优化为</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">select * from salaries where salary = &apos;62102&apos;;</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/20190819182149983.png" alt="在这里插入图片描述"></p>
+<h2 id="InnoDB的主键选择与插入优化"><a href="#InnoDB的主键选择与插入优化" class="headerlink" title="InnoDB的主键选择与插入优化"></a>InnoDB的主键选择与插入优化</h2><p>在使用InnoDB存储引擎时，如果没有特别的需要，请永远使用一个与业务无关的自增字段作为主键。</p>
+<p>上文讨论过InnoDB的索引实现，InnoDB使用聚集索引，数据记录本身被存于主索引（一颗B+Tree）的叶子节点上。这就要求同一个叶子节点内（大小为一个内存页或磁盘页）的各条数据记录按主键顺序存放，因此每当有一条新的记录插入时，MySQL会根据其主键将其插入适当的节点和位置，如果页面达到装载因子（InnoDB默认为15/16），则开辟一个新的页（节点）。</p>
+<p>如果表使用自增主键，那么每次插入新的记录，记录就会顺序添加到当前索引节点的后续位置，当一页写满，就会自动开辟一个新的页。如下图所示：</p>
+<p><img src="https://img-blog.csdnimg.cn/20190819182200838.png" alt="在这里插入图片描述"></p>
+<p>这样就会形成一个紧凑的索引结构，近似顺序填满。由于每次插入时也不需要移动已有数据，因此效率很高，也不会增加很多开销在维护索引上。</p>
+<p>如果使用非自增主键（如果身份证号或学号等），由于每次插入主键的值近似于随机，因此每次新纪录都要被插到现有索引页得中间某个位置：</p>
+<p><img src="https://img-blog.csdnimg.cn/20190819182209576.png" alt="在这里插入图片描述"></p>
+<p>此时MySQL不得不为了将新记录插到合适位置而移动数据，甚至目标页面可能已经被回写到磁盘上而从缓存中清掉，此时又要从磁盘上读回来，这增加了很多开销，同时频繁的移动、分页操作造成了大量的碎片，得到了不够紧凑的索引结构，后续不得不通过OPTIMIZE TABLE来重建表并优化填充页面。</p>
+<p>因此，只要可以，请尽量在InnoDB上采用自增字段做主键。</p>
+<h2 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h2><h3 id="只要是查询语句需要，就建上索引？"><a href="#只要是查询语句需要，就建上索引？" class="headerlink" title="只要是查询语句需要，就建上索引？"></a>只要是查询语句需要，就建上索引？</h3><p>不是，因为索引虽然加快了查询速度，但索引也是有代价的。索引文件本身要消耗存储空间，同时索引会加重插入、删除和修改记录时的负担。另外，MySQL 在运行时也要消耗资源维护索引，因此索引并不是越多越好。一般两种情况下不建议建索引。第一种情况是表记录比较少，例如一两千条甚至只有几百条记录的表，没必要建索引，另一种是数据的区分度比较低，可以使用 count(distinct(列名))/count(*) 来计算区分度。</p>
+<h3 id="假如建立联合索引-a-b-c-，下列语句是否可以使用索引，如果可以，使用了那几列？"><a href="#假如建立联合索引-a-b-c-，下列语句是否可以使用索引，如果可以，使用了那几列？" class="headerlink" title="假如建立联合索引(a,b,c)，下列语句是否可以使用索引，如果可以，使用了那几列？"></a>假如建立联合索引(a,b,c)，下列语句是否可以使用索引，如果可以，使用了那几列？</h3><p>where a= 3</p>
+<p>答：是，使用了 a 列。</p>
+<p>where a= 3 and b = 5</p>
+<p>答：是，使用了 a，b 列。</p>
+<p>where a = 3 and c = 4 and b = 5</p>
+<p>答：是，使用了 a，b，c 列。</p>
+<p>where b= 3</p>
+<p>答：否。</p>
+<p>where a= 3 and c = 4</p>
+<p>答：是，使用了 a 列。</p>
+<p>where a = 3 and b &gt; 10 and c = 7</p>
+<p>答：是，使用了 a，b 列。</p>
+<p>where a = 3 and b like ‘xx%’  and c = 7</p>
+<p>答：是，使用了 a，b 列。</p>
+<h2 id="答疑"><a href="#答疑" class="headerlink" title="答疑"></a>答疑</h2><h3 id="关于执行计划的相关列含义"><a href="#关于执行计划的相关列含义" class="headerlink" title="关于执行计划的相关列含义"></a>关于执行计划的相关列含义</h3><ul>
+<li><p>Extra列</p>
+<blockquote>
+<p>Extra列是不适合在其他列显示的额外信息。</p>
+<p>常用值如下：</p>
+<p>Using index：表示使用覆盖索引</p>
+<p>Using where：需要回表查询，使用where来过滤条件</p>
+<p>Using index condition：查找使用了索引，但是需要回表查询数据</p>
+</blockquote>
+</li>
+<li><p>filtered：显示的是针对表里符合where子句或联接条件的记录数的百分比</p>
+</li>
+<li><p>type：访问类型</p>
+<blockquote>
+<p>ALL：全表扫描</p>
+<p>index：也是全表扫描，但是按照索引的次序进行</p>
+<p>range：范围扫描</p>
+<p>ref：索引查找</p>
+</blockquote>
+</li>
+<li><p>possible_keys：查询可以使用哪些索引</p>
+</li>
+<li><p>key：MySQL决定用哪个索引来优化查询</p>
+</li>
+<li><p>key_len：索引使用的字节数。如果MySQL正在使用的只是索引里的某些列，那么就可以用这个值来算出具体是哪些列</p>
+</li>
+<li><p>rows：MySQL为了找到所需的行而要读取的行数</p>
+</li>
+</ul>
+<h3 id="聚集（簇）索引的优势在哪？"><a href="#聚集（簇）索引的优势在哪？" class="headerlink" title="聚集（簇）索引的优势在哪？"></a>聚集（簇）索引的优势在哪？</h3><p>看上去聚簇索引的效率明显要低于非聚簇索引，因为每次使用辅助索引检索都要经过两次B+树查找，那么聚簇索引的优势在哪？</p>
+<ul>
+<li><p>由于行数据和叶子节点存储在一起，这样主键和行数据是一起被载入内存的，找到叶子节点就可以立刻将行数据返回了，如果按照主键Id来组织数据，获得数据更快。</p>
+</li>
+<li><p>辅助索引使用主键作为”指针” 而不是使用行地址值作为指针的好处是，减少了当出现行移动或者数据页分裂时辅助索引的维护工作，使用主键值当作指针会让辅助索引占用更多的空间，换来的好处是InnoDB在移动行时无须更新辅助索引中的这个”指针”，使用聚簇索引可以保证不管这个主键B+树的节点如何变化，辅助索引树都不受影响。<br>原文链接：<a href="https://blog.csdn.net/molashaonian/article/details/83012176" target="_blank" rel="noopener">https://blog.csdn.net/molashaonian/article/details/83012176</a></p>
+</li>
+</ul>
+<h3 id="使用in关键字时联合索引使用情况"><a href="#使用in关键字时联合索引使用情况" class="headerlink" title="使用in关键字时联合索引使用情况"></a>使用in关键字时联合索引使用情况</h3><p>本地测试的MySQL版本为5.7.19。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">select * from employees where birth_date in (&apos;1953-09-02&apos;, &apos;1953-09-05&apos;)</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/20190819182232154.png" alt="在这里插入图片描述"></p>
+<p>由执行计划得知用到了联合索引中的最左列。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">select * from employees where birth_date in (&apos;1953-09-02&apos;, &apos;1953-09-05&apos;) and first_name = &apos;Georgi&apos;;</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/2019081918224125.png" alt="在这里插入图片描述"></p>
+<p>通过key_len可以知道用到了联合索引中的前两个字段（当where条件只有birth_date条件时key_len为3，key_len是指MySQL在索引里使用的字节数）</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">select * from employees where birth_date = &apos;1953-09-02&apos; and first_name in (&apos;Georgi&apos;, &apos;xxx&apos;) and last_name = &apos;Facello&apos;</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/20190819182259343.png" alt="在这里插入图片描述"></p>
+<p>通过key_len可以知道用到了联合索引中的所有字段</p>
+<h3 id="使用范围查询时联合索引使用情况"><a href="#使用范围查询时联合索引使用情况" class="headerlink" title="使用范围查询时联合索引使用情况"></a>使用范围查询时联合索引使用情况</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">select * from employees where birth_date = &apos;1953-09-02&apos; and first_name &gt; &apos;Georgi&apos; and last_name = &apos;Facello&apos;</span><br></pre></td></tr></table></figure>
+<p><img src="https://img-blog.csdnimg.cn/20190819182310251.png" alt="在这里插入图片描述"></p>
+<p>由执行计划得知，该查询使用到了联合索引的前两列。</p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="gongshiyun.top/2018/08/18/HashMap的四种遍历方式及遍历性能的测试/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="龚士云">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/my2.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="gsyun's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/08/18/HashMap的四种遍历方式及遍历性能的测试/" itemprop="url">
+                  HashMap的四种遍历方式及遍历性能的测试
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-08-18 21:42:54 / 修改时间：21:55:26" itemprop="dateCreated datePublished" datetime="2018-08-18T21:42:54+08:00">2018-08-18</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/集合/" itemprop="url" rel="index"><span itemprop="name">集合</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/08/18/HashMap的四种遍历方式及遍历性能的测试/" class="leancloud_visitors" data-flag-title="HashMap的四种遍历方式及遍历性能的测试">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="keyword">package</span> gsy.main.collections;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.util.HashMap;</span><br><span class="line"><span class="keyword">import</span> java.util.Iterator;</span><br><span class="line"><span class="keyword">import</span> java.util.Map;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span> gongshiyun</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Description</span> hashmap 遍历方式练习,以及遍历性能测试</span></span><br><span class="line"><span class="comment"> * 输出:</span></span><br><span class="line"><span class="comment"> * Map 初始化1000000条数据时间: 1040014952</span></span><br><span class="line"><span class="comment"> * 遍历方式1:通过 keySet 进行循环遍历: 52262563</span></span><br><span class="line"><span class="comment"> * 遍历方式2:通过 Map.entrySet 使用 iterator 遍历 key 和 value: 40783708</span></span><br><span class="line"><span class="comment"> * 遍历方式3:通过 Map.entrySet 遍历 key 和 value: 34407489</span></span><br><span class="line"><span class="comment"> * 遍历方式4: 通过 map.keySet().iterator() 遍历: 32135582</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * Map 初始化100000条数据时间: 35574972</span></span><br><span class="line"><span class="comment"> * 遍历方式1:通过 keySet 进行循环遍历: 13408674</span></span><br><span class="line"><span class="comment"> * 遍历方式2:通过 Map.entrySet 使用 iterator 遍历 key 和 value: 6436631</span></span><br><span class="line"><span class="comment"> * 遍历方式3:通过 Map.entrySet 遍历 key 和 value: 3298929</span></span><br><span class="line"><span class="comment"> * 遍历方式4: 通过 map.keySet().iterator() 遍历: 4588371</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * Map 初始化1000条数据时间: 1227517</span></span><br><span class="line"><span class="comment"> * 遍历方式1:通过 keySet 进行循环遍历: 712118</span></span><br><span class="line"><span class="comment"> * 遍历方式2:通过 Map.entrySet 使用 iterator 遍历 key 和 value: 259776</span></span><br><span class="line"><span class="comment"> * 遍历方式3:通过 Map.entrySet 遍历 key 和 value: 154431</span></span><br><span class="line"><span class="comment"> * 遍历方式4: 通过 map.keySet().iterator() 遍历: 138950</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * 总结: 从测试结果来看,遍历方式3和4性能较优</span></span><br><span class="line"><span class="comment"> *</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@date</span> 2018/8/3</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HashMapTest</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">long</span> t1, t2, t3, t4, t5, t6, init, initEnd;</span><br><span class="line">        <span class="keyword">final</span> <span class="keyword">int</span> MAP_INIT_NUM = <span class="number">1000000</span>;</span><br><span class="line">        <span class="comment">// 指定初始值,赋值100000值所需时间21855171</span></span><br><span class="line">        <span class="comment">// 不指定初始值,赋值100000所需时间39124238</span></span><br><span class="line">        Map&lt;String, String&gt; map = <span class="keyword">new</span> HashMap&lt;&gt;(MAP_INIT_NUM);</span><br><span class="line"></span><br><span class="line">        init = System.nanoTime();</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; MAP_INIT_NUM; i++) &#123;</span><br><span class="line">            map.put(String.valueOf(i), String.valueOf(i));</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        initEnd = System.nanoTime();</span><br><span class="line"></span><br><span class="line">        t1 = System.nanoTime();</span><br><span class="line">        <span class="comment">/**</span></span><br><span class="line"><span class="comment">         * 遍历方式1:通过 keySet 进行循环遍历</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line">        System.out.println(<span class="string">"遍历方式1:通过 keySet 进行循环遍历:"</span>);</span><br><span class="line">        <span class="keyword">for</span> (String key : map.keySet()) &#123;</span><br><span class="line">            <span class="comment">//System.out.println("Key: " + key + " Value: " + map.get(key));</span></span><br><span class="line">            map.get(key);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//map.keySet().forEach(k -&gt; map.get(k)); //使用forEach耗费时间更多</span></span><br><span class="line"></span><br><span class="line">        t2 = System.nanoTime();</span><br><span class="line"></span><br><span class="line">        <span class="comment">/**</span></span><br><span class="line"><span class="comment">         * 遍历方式2:通过 Map.entrySet 使用 iterator 遍历 key 和 value</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line">        System.out.println(<span class="string">"遍历方式2:通过 Map.entrySet 使用 iterator 遍历 key 和 value :"</span>);</span><br><span class="line">        Iterator iterator = map.entrySet().iterator();</span><br><span class="line">        <span class="keyword">while</span> (iterator.hasNext()) &#123;</span><br><span class="line">            Map.Entry&lt;String, String&gt; entry = (Map.Entry&lt;String, String&gt;) iterator.next();</span><br><span class="line">            <span class="comment">//System.out.println("Key: " + entry.getKey() + " Value: " + entry.getValue());</span></span><br><span class="line">            entry.getValue();</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        t3 = System.nanoTime();</span><br><span class="line"></span><br><span class="line">        <span class="comment">/**</span></span><br><span class="line"><span class="comment">         * 遍历方式3:通过 Map.entrySet 遍历 key 和 value</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line">        System.out.println(<span class="string">"遍历方式3:通过 Map.entrySet 遍历 key 和 value :"</span>);</span><br><span class="line">        <span class="keyword">for</span> (Map.Entry&lt;String, String&gt; entry : map.entrySet()) &#123;</span><br><span class="line">            <span class="comment">//System.out.println("Key: " + entry.getKey() + " Value: " + entry.getValue());</span></span><br><span class="line">            entry.getValue();</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//map.entrySet().forEach(k -&gt; k.getValue());</span></span><br><span class="line"></span><br><span class="line">        t4 = System.nanoTime();</span><br><span class="line">        <span class="comment">/**</span></span><br><span class="line"><span class="comment">         * 遍历方式4: 通过 map.keySet().iterator() 遍历</span></span><br><span class="line"><span class="comment">         */</span></span><br><span class="line">        System.out.println(<span class="string">"遍历方式4: 通过 map.keySet().iterator() 遍历 :"</span>);</span><br><span class="line">        Iterator keyIt = map.keySet().iterator();</span><br><span class="line">        <span class="keyword">while</span> (keyIt.hasNext()) &#123;</span><br><span class="line">            Object key = keyIt.next();</span><br><span class="line">            map.get(key);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        t5 = System.nanoTime();</span><br><span class="line"></span><br><span class="line">        System.out.println(<span class="string">"Map 初始化"</span> + MAP_INIT_NUM + <span class="string">"条数据时间: "</span> + (initEnd - init));</span><br><span class="line">        System.out.println(<span class="string">"遍历方式1:通过 keySet 进行循环遍历: "</span> + (t2 - t1));</span><br><span class="line">        System.out.println(<span class="string">"遍历方式2:通过 Map.entrySet 使用 iterator 遍历 key 和 value: "</span> + (t3 - t2));</span><br><span class="line">        System.out.println(<span class="string">"遍历方式3:通过 Map.entrySet 遍历 key 和 value: "</span> + (t4 - t3));</span><br><span class="line">        System.out.println(<span class="string">"遍历方式4: 通过 map.keySet().iterator() 遍历: "</span> + (t5 - t4));</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="gongshiyun.top/2018/07/22/数值的整数次方/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="龚士云">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/my2.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="gsyun's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/22/数值的整数次方/" itemprop="url">
+                  数值的整数次方
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-07-22 16:35:08 / 修改时间：16:38:02" itemprop="dateCreated datePublished" datetime="2018-07-22T16:35:08+08:00">2018-07-22</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/算法/" itemprop="url" rel="index"><span itemprop="name">算法</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/07/22/数值的整数次方/" class="leancloud_visitors" data-flag-title="数值的整数次方">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>给定一个double类型的浮点数base和int类型的整数exponent。求base的exponent次方。<br>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/07/22/数值的整数次方/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </p></div>
+
+    
+
+    
+    
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="gongshiyun.top/2018/07/22/二进制中1的个数/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="龚士云">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/my2.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="gsyun's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/22/二进制中1的个数/" itemprop="url">
+                  二进制中1的个数
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-07-22 16:34:58 / 修改时间：16:37:34" itemprop="dateCreated datePublished" datetime="2018-07-22T16:34:58+08:00">2018-07-22</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/算法/" itemprop="url" rel="index"><span itemprop="name">算法</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/07/22/二进制中1的个数/" class="leancloud_visitors" data-flag-title="二进制中1的个数">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>输入一个整数，输出该数二进制表示中1的个数。其中负数用补码表示。<br>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/07/22/二进制中1的个数/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </p></div>
+
+    
+
+    
+    
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="gongshiyun.top/2018/07/19/变态跳台阶/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="龚士云">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/my2.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="gsyun's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/19/变态跳台阶/" itemprop="url">
+                  变态跳台阶
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-07-19 19:45:46" itemprop="dateCreated datePublished" datetime="2018-07-19T19:45:46+08:00">2018-07-19</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-07-22 20:59:32" itemprop="dateModified" datetime="2019-07-22T20:59:32+08:00">2019-07-22</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/算法/" itemprop="url" rel="index"><span itemprop="name">算法</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/07/19/变态跳台阶/" class="leancloud_visitors" data-flag-title="变态跳台阶">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>一只青蛙一次可以跳上1级台阶，也可以跳上2级……它也可以跳上n级。求该青蛙跳上一个n级的台阶总共有多少种跳法<br>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/07/19/变态跳台阶/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </p></div>
+
+    
+
+    
+    
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="gongshiyun.top/2018/07/19/跳台阶/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="龚士云">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/my2.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="gsyun's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/19/跳台阶/" itemprop="url">
+                  跳台阶
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-07-19 19:45:35 / 修改时间：19:51:10" itemprop="dateCreated datePublished" datetime="2018-07-19T19:45:35+08:00">2018-07-19</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/算法/" itemprop="url" rel="index"><span itemprop="name">算法</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/07/19/跳台阶/" class="leancloud_visitors" data-flag-title="跳台阶">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>一只青蛙一次可以跳上1级台阶，也可以跳上2级。求该青蛙跳上一个n级的台阶总共有多少种跳法（先后次序不同算不同的结果）。<br>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/07/19/跳台阶/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </p></div>
+
+    
+
+    
+    
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="gongshiyun.top/2018/07/19/斐波那契数列/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="龚士云">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/my2.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="gsyun's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/19/斐波那契数列/" itemprop="url">
+                  斐波那契数列
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-07-19 19:45:21" itemprop="dateCreated datePublished" datetime="2018-07-19T19:45:21+08:00">2018-07-19</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">更新于</span>
+                
+                <time title="修改时间：2019-08-31 14:07:12" itemprop="dateModified" datetime="2019-08-31T14:07:12+08:00">2019-08-31</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/算法/" itemprop="url" rel="index"><span itemprop="name">算法</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/07/19/斐波那契数列/" class="leancloud_visitors" data-flag-title="斐波那契数列">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>输入一个整数n，输出斐波那契数列的第n项（从0开始，第0项为0,n&lt;=39)<br>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/07/19/斐波那契数列/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </p></div>
+
+    
+
+    
+    
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="gongshiyun.top/2018/07/19/旋转数组的最小数字/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="龚士云">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/my2.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="gsyun's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/19/旋转数组的最小数字/" itemprop="url">
+                  旋转数组的最小数字
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-07-19 19:45:10 / 修改时间：19:51:14" itemprop="dateCreated datePublished" datetime="2018-07-19T19:45:10+08:00">2018-07-19</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/算法/" itemprop="url" rel="index"><span itemprop="name">算法</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/07/19/旋转数组的最小数字/" class="leancloud_visitors" data-flag-title="旋转数组的最小数字">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>一个数组最开始的若干个元素搬到数组的末尾，我们称之为数组的旋转。输入一个非减排序的数组的一个旋转，输出旋转数组的最小元素。例如数组{3,4,5,1,2}为{1,2,3,4,5}的一个旋转，该数组的最小值为1。<br>NOTE：给出的所有元素都大于0，若数组大小为0，请返回0。<br>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/07/19/旋转数组的最小数字/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </p></div>
+
+    
+
+    
+    
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="gongshiyun.top/2018/07/19/用两个栈实现队列/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="龚士云">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/my2.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="gsyun's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/19/用两个栈实现队列/" itemprop="url">
+                  用两个栈实现队列
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2018-07-19 03:33:17 / 修改时间：19:52:42" itemprop="dateCreated datePublished" datetime="2018-07-19T03:33:17+08:00">2018-07-19</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/算法/" itemprop="url" rel="index"><span itemprop="name">算法</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/07/19/用两个栈实现队列/" class="leancloud_visitors" data-flag-title="用两个栈实现队列">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数：</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>用两个栈来实现一个队列，完成队列的Push和Pop操作。 队列中的元素为int类型。<br>思路:<br>1.stack1作为入队列,stack2作为出队列<br>2.pop:当stack2为空时,stack1全部出栈到stack2,stack2再出栈顶部元素<br>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/07/19/用两个栈实现队列/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </p></div>
+
+    
+
+    
+    
+    
+
+    <div>
+      
+    </div>
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/my2.jpg" alt="龚士云">
+            
+              <p class="site-author-name" itemprop="name">龚士云</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">14</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">6</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">9</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/gongshiyun" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:gongshiyun@outlook.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  
+                </span>
+              
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; 2018 &mdash; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">龚士云</span>
+
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.3.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.3.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=6.3.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.3.0"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.3.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+  <script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+  <script>AV.initialize("EPAXVAVtteh6PmtI0ngHp5h9-gzGzoHsz", "cY1JjAQtDORFkYcXsbUy8trn");</script>
+  <script>
+    function showTime(Counter) {
+      var query = new AV.Query(Counter);
+      var entries = [];
+      var $visitors = $(".leancloud_visitors");
+
+      $visitors.each(function () {
+        entries.push( $(this).attr("id").trim() );
+      });
+
+      query.containedIn('url', entries);
+      query.find()
+        .done(function (results) {
+          var COUNT_CONTAINER_REF = '.leancloud-visitors-count';
+
+          if (results.length === 0) {
+            $visitors.find(COUNT_CONTAINER_REF).text(0);
+            return;
+          }
+
+          for (var i = 0; i < results.length; i++) {
+            var item = results[i];
+            var url = item.get('url');
+            var time = item.get('time');
+            var element = document.getElementById(url);
+
+            $(element).find(COUNT_CONTAINER_REF).text(time);
+          }
+          for(var i = 0; i < entries.length; i++) {
+            var url = entries[i];
+            var element = document.getElementById(url);
+            var countSpan = $(element).find(COUNT_CONTAINER_REF);
+            if( countSpan.text() == '') {
+              countSpan.text(0);
+            }
+          }
+        })
+        .fail(function (object, error) {
+          console.log("Error: " + error.code + " " + error.message);
+        });
+    }
+
+    function addCount(Counter) {
+      var $visitors = $(".leancloud_visitors");
+      var url = $visitors.attr('id').trim();
+      var title = $visitors.attr('data-flag-title').trim();
+      var query = new AV.Query(Counter);
+
+      query.equalTo("url", url);
+      query.find({
+        success: function(results) {
+          if (results.length > 0) {
+            var counter = results[0];
+            counter.fetchWhenSave(true);
+            counter.increment("time");
+            
+            counter.save(null, {
+              success: function(counter) {
+                
+                  var $element = $(document.getElementById(url));
+                  $element.find('.leancloud-visitors-count').text(counter.get('time'));
+                
+              },
+              error: function(counter, error) {
+                console.log('Failed to save Visitor num, with error message: ' + error.message);
+              }
+            });
+          } else {
+            
+              var newcounter = new Counter();
+              /* Set ACL */
+              var acl = new AV.ACL();
+              acl.setPublicReadAccess(true);
+              acl.setPublicWriteAccess(true);
+              newcounter.setACL(acl);
+              /* End Set ACL */
+              newcounter.set("title", title);
+              newcounter.set("url", url);
+              newcounter.set("time", 1);
+              newcounter.save(null, {
+                success: function(newcounter) {
+                  var $element = $(document.getElementById(url));
+                  $element.find('.leancloud-visitors-count').text(newcounter.get('time'));
+                },
+                error: function(newcounter, error) {
+                  console.log('Failed to create');
+                }
+              });
+            
+          }
+        },
+        error: function(error) {
+          console.log('Error:' + error.code + " " + error.message);
+        }
+      });
+    }
+
+    $(function() {
+      var Counter = AV.Object.extend("Counter");
+      if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
+      } else if ($('.post-title-link').length > 1) {
+        showTime(Counter);
+      }
+    });
+  </script>
+
+
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+
+  
+  
+
+  
+
+  
+  <script type="text/javascript" src="/js/src/js.cookie.js?v=6.3.0"></script>
+  <script type="text/javascript" src="/js/src/scroll-cookie.js?v=6.3.0"></script>
+
+
+  
+
+  
+
+  
+
+
+  
+  <script type="text/javascript" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
+  
+</body>
+</html>
