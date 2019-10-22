@@ -400,9 +400,6 @@
 <td>《MySQL索引背后的数据结构及算法原理》</td>
 <td><a href="http://blog.codinglabs.org/articles/theory-of-mysql-index.html" target="_blank" rel="noopener">http://blog.codinglabs.org/articles/theory-of-mysql-index.html</a></td>
 </tr>
-<tr>
-<td>各路互联网资料</td>
-</tr>
 </tbody>
 </table><a id="more"></a>
 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>MySQL的索引是存储引擎用于快速查找记录的一种数据结构。工作原理是先从索引上找到对应值，再根据匹配的索引记录找到对应的数据行。索引的目的在于提高查询效率，可类比字典、书籍的目录等这种形式。</p>
