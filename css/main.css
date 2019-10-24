@@ -389,27 +389,11 @@ td {
   -ms-user-select: none;
   -webkit-user-select: none;
   user-select: none;
-  color: #fff;
-  font-size: 14px;
+  background: #fff;
+  border: 0;
+  font-size: 0.8125em;
   right: 0;
-  top: 2px;
-}
-.highlight-wrap {
-  background: #21252b;
-  border-radius: 5px;
-  box-shadow: 0 10px 30px 0 rgba(0,0,0,0.4);
-  padding-top: 30px;
-}
-.highlight-wrap::before {
-  background: #fc625d;
-  border-radius: 50%;
-  box-shadow: 20px 0 #fdbc40, 40px 0 #35cd4b;
-  content: ' ';
-  height: 12px;
-  left: 12px;
-  margin-top: -20px;
-  position: absolute;
-  width: 12px;
+  top: 0;
 }
 pre,
 .highlight {
@@ -1192,7 +1176,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #49a174;
+  background: #2494f9;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2286,6 +2270,25 @@ ul.breadcrumb li + li:last-child {
   position: absolute;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+.popular-posts-header {
+  border-bottom: 1px solid #eee;
+  display: block;
+  font-size: 1.125em;
+  margin-bottom: 10px;
+  margin-top: 60px;
+}
+.popular-posts {
+  padding: 0;
+}
+.popular-posts .popular-posts-item {
+  margin-left: 2em;
+}
+.popular-posts .popular-posts-item .popular-posts-title {
+  font-size: 0.875em;
+  font-weight: normal;
+  line-height: 2.4;
+  margin: 0;
 }
 @media (max-width: 767px) {
   .header-inner,
