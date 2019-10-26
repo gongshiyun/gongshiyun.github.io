@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>gongshiyun.top/2019/10/22/Kafka%E5%AD%A6%E4%B9%A0/</loc>
+    
+    <lastmod>2019-10-26T11:22:27.618Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>gongshiyun.top/2019/10/23/Redis%E4%B8%BA%E4%BB%80%E4%B9%88%E6%98%AF%E5%8D%95%E7%BA%BF%E7%A8%8B%E6%9E%B6%E6%9E%84/</loc>
     
     <lastmod>2019-10-24T16:24:25.709Z</lastmod>
@@ -47,13 +54,6 @@
     <loc>gongshiyun.top/about/index.html</loc>
     
     <lastmod>2019-10-22T15:18:49.351Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>gongshiyun.top/2019/10/22/Kafka%E5%AD%A6%E4%B9%A0/</loc>
-    
-    <lastmod>2019-10-22T14:42:41.911Z</lastmod>
     
   </url>
   
