@@ -225,6 +225,130 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="gongshiyun.top/2019/11/26/InnoDB缓存机制和底层数据结构/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/upload/me.jpg">
+      <meta itemprop="name" content="龚士云">
+      <meta itemprop="description" content="I'm gonna ride 'til I can't no more.">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="gsyun's blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/11/26/InnoDB缓存机制和底层数据结构/" class="post-title-link" itemprop="url">InnoDB缓存机制和底层数据结构</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2019-11-26 20:52:30 / 修改时间：20:56:15" itemprop="dateCreated datePublished" datetime="2019-11-26T20:52:30+08:00">2019-11-26</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/MySQL/" itemprop="url" rel="index">
+                    <span itemprop="name">MySQL</span>
+                  </a>
+                </span>
+            </span>
+
+          
+            <span id="/2019/11/26/InnoDB缓存机制和底层数据结构/" class="post-meta-item leancloud_visitors" data-flag-title="InnoDB缓存机制和底层数据结构" title="阅读次数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">阅读次数：</span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2019/11/26/InnoDB缓存机制和底层数据结构/#comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2019/11/26/InnoDB缓存机制和底层数据结构/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="InnoDB缓存方案和底层存储结构"><a href="#InnoDB缓存方案和底层存储结构" class="headerlink" title="InnoDB缓存方案和底层存储结构"></a>InnoDB缓存方案和底层存储结构</h1><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><table>
+<thead>
+<tr>
+<th>资料名称</th>
+<th>来源地址</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>《MySQL王者晋级之路》</td>
+<td>图书</td>
+</tr>
+<tr>
+<td>《MySQL技术内幕 InnoDB存储引擎》</td>
+<td>图书</td>
+</tr>
+<tr>
+<td>MySQL 5.7官方文档</td>
+<td><a href="https://dev.mysql.com/doc/refman/5.7/en/" target="_blank" rel="noopener">https://dev.mysql.com/doc/refman/5.7/en/</a></td>
+</tr>
+</tbody>
+</table><h2 id="InnoDB引擎概述"><a href="#InnoDB引擎概述" class="headerlink" title="InnoDB引擎概述"></a>InnoDB引擎概述</h2>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2019/11/26/InnoDB缓存机制和底层数据结构/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      
+
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+
+  <ul class="popular-posts"><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2019/08/31/浅析MySQL索引/" title="浅析MySQL索引" rel="bookmark">浅析MySQL索引</a></h3></div></li></ul>
+    
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="gongshiyun.top/2019/10/23/Redis为什么是单线程架构/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -718,7 +842,7 @@
       </footer>
   </article>
 
-  
+  <ul class="popular-posts"><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2019/11/26/InnoDB缓存机制和底层数据结构/" title="InnoDB缓存机制和底层数据结构" rel="bookmark">InnoDB缓存机制和底层数据结构</a></h3></div></li></ul>
     
   
   
@@ -916,7 +1040,7 @@
       </footer>
   </article>
 
-  <ul class="popular-posts"><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/22/二进制中1的个数/" title="二进制中1的个数" rel="bookmark">二进制中1的个数</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/17/从尾到头打印链表/" title="从尾到头打印链表" rel="bookmark">从尾到头打印链表</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/17/删除链表的倒数第-n-个节点/" title="删除链表的倒数第 n 个节点" rel="bookmark">删除链表的倒数第 n 个节点</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/19/变态跳台阶/" title="变态跳台阶" rel="bookmark">变态跳台阶</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/19/斐波那契数列/" title="斐波那契数列" rel="bookmark">斐波那契数列</a></h3></div></li></ul>
+  <ul class="popular-posts"><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/22/二进制中1的个数/" title="二进制中1的个数" rel="bookmark">二进制中1的个数</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/17/删除链表的倒数第-n-个节点/" title="删除链表的倒数第 n 个节点" rel="bookmark">删除链表的倒数第 n 个节点</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/17/从尾到头打印链表/" title="从尾到头打印链表" rel="bookmark">从尾到头打印链表</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/19/变态跳台阶/" title="变态跳台阶" rel="bookmark">变态跳台阶</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/19/斐波那契数列/" title="斐波那契数列" rel="bookmark">斐波那契数列</a></h3></div></li></ul>
     
   
   
@@ -1019,7 +1143,7 @@
       </footer>
   </article>
 
-  <ul class="popular-posts"><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/17/从尾到头打印链表/" title="从尾到头打印链表" rel="bookmark">从尾到头打印链表</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/17/删除链表的倒数第-n-个节点/" title="删除链表的倒数第 n 个节点" rel="bookmark">删除链表的倒数第 n 个节点</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/19/变态跳台阶/" title="变态跳台阶" rel="bookmark">变态跳台阶</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/22/数值的整数次方/" title="数值的整数次方" rel="bookmark">数值的整数次方</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/19/斐波那契数列/" title="斐波那契数列" rel="bookmark">斐波那契数列</a></h3></div></li></ul>
+  <ul class="popular-posts"><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/17/删除链表的倒数第-n-个节点/" title="删除链表的倒数第 n 个节点" rel="bookmark">删除链表的倒数第 n 个节点</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/17/从尾到头打印链表/" title="从尾到头打印链表" rel="bookmark">从尾到头打印链表</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/19/变态跳台阶/" title="变态跳台阶" rel="bookmark">变态跳台阶</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/22/数值的整数次方/" title="数值的整数次方" rel="bookmark">数值的整数次方</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/19/斐波那契数列/" title="斐波那契数列" rel="bookmark">斐波那契数列</a></h3></div></li></ul>
     
   
   
@@ -1128,7 +1252,7 @@
       </footer>
   </article>
 
-  <ul class="popular-posts"><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/22/二进制中1的个数/" title="二进制中1的个数" rel="bookmark">二进制中1的个数</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/17/从尾到头打印链表/" title="从尾到头打印链表" rel="bookmark">从尾到头打印链表</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/17/删除链表的倒数第-n-个节点/" title="删除链表的倒数第 n 个节点" rel="bookmark">删除链表的倒数第 n 个节点</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/22/数值的整数次方/" title="数值的整数次方" rel="bookmark">数值的整数次方</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/19/斐波那契数列/" title="斐波那契数列" rel="bookmark">斐波那契数列</a></h3></div></li></ul>
+  <ul class="popular-posts"><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/22/二进制中1的个数/" title="二进制中1的个数" rel="bookmark">二进制中1的个数</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/17/删除链表的倒数第-n-个节点/" title="删除链表的倒数第 n 个节点" rel="bookmark">删除链表的倒数第 n 个节点</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/17/从尾到头打印链表/" title="从尾到头打印链表" rel="bookmark">从尾到头打印链表</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/22/数值的整数次方/" title="数值的整数次方" rel="bookmark">数值的整数次方</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/19/斐波那契数列/" title="斐波那契数列" rel="bookmark">斐波那契数列</a></h3></div></li></ul>
     
   
   
@@ -1231,116 +1355,7 @@
       </footer>
   </article>
 
-  <ul class="popular-posts"><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/22/二进制中1的个数/" title="二进制中1的个数" rel="bookmark">二进制中1的个数</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/17/从尾到头打印链表/" title="从尾到头打印链表" rel="bookmark">从尾到头打印链表</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/17/删除链表的倒数第-n-个节点/" title="删除链表的倒数第 n 个节点" rel="bookmark">删除链表的倒数第 n 个节点</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/19/变态跳台阶/" title="变态跳台阶" rel="bookmark">变态跳台阶</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/22/数值的整数次方/" title="数值的整数次方" rel="bookmark">数值的整数次方</a></h3></div></li></ul>
-    
-  
-  
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="gongshiyun.top/2018/07/19/斐波那契数列/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/upload/me.jpg">
-      <meta itemprop="name" content="龚士云">
-      <meta itemprop="description" content="I'm gonna ride 'til I can't no more.">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="gsyun's blog">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2018/07/19/斐波那契数列/" class="post-title-link" itemprop="url">斐波那契数列</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2018-07-19 19:45:21" itemprop="dateCreated datePublished" datetime="2018-07-19T19:45:21+08:00">2018-07-19</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-08-31 14:07:12" itemprop="dateModified" datetime="2019-08-31T14:07:12+08:00">2019-08-31</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/算法/" itemprop="url" rel="index">
-                    <span itemprop="name">算法</span>
-                  </a>
-                </span>
-            </span>
-
-          
-            <span id="/2018/07/19/斐波那契数列/" class="post-meta-item leancloud_visitors" data-flag-title="斐波那契数列" title="阅读次数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-eye"></i>
-              </span>
-              <span class="post-meta-item-text">阅读次数：</span>
-              <span class="leancloud-visitors-count"></span>
-            </span>
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="fa fa-comment-o"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/2018/07/19/斐波那契数列/#comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2018/07/19/斐波那契数列/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>输入一个整数n，输出斐波那契数列的第n项（从0开始，第0项为0,n&lt;=39)<br>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2018/07/19/斐波那契数列/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      
-
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-
-  <ul class="popular-posts"><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/22/二进制中1的个数/" title="二进制中1的个数" rel="bookmark">二进制中1的个数</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/17/从尾到头打印链表/" title="从尾到头打印链表" rel="bookmark">从尾到头打印链表</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/17/删除链表的倒数第-n-个节点/" title="删除链表的倒数第 n 个节点" rel="bookmark">删除链表的倒数第 n 个节点</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/19/变态跳台阶/" title="变态跳台阶" rel="bookmark">变态跳台阶</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/22/数值的整数次方/" title="数值的整数次方" rel="bookmark">数值的整数次方</a></h3></div></li></ul>
+  <ul class="popular-posts"><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/22/二进制中1的个数/" title="二进制中1的个数" rel="bookmark">二进制中1的个数</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/17/删除链表的倒数第-n-个节点/" title="删除链表的倒数第 n 个节点" rel="bookmark">删除链表的倒数第 n 个节点</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/17/从尾到头打印链表/" title="从尾到头打印链表" rel="bookmark">从尾到头打印链表</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/19/变态跳台阶/" title="变态跳台阶" rel="bookmark">变态跳台阶</a></h3></div></li><li class="popular-posts-item"><div class="popular-posts-title"><h3><a href="/2018/07/22/数值的整数次方/" title="数值的整数次方" rel="bookmark">数值的整数次方</a></h3></div></li></ul>
     
   
   
@@ -1396,7 +1411,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">16</span>
+          <span class="site-state-item-count">17</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -1409,7 +1424,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">13</span>
+        <span class="site-state-item-count">14</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
