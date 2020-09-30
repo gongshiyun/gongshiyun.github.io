@@ -57,13 +57,13 @@
 <meta property="og:site_name" content="gsyun&#39;s blog">
 <meta property="og:description" content="剑指offer编程题练习前言本文记录本人剑指offer编程题的解题思路，题目从牛客网获取，地址https://www.nowcoder.com/ta/coding-interviews?page=11.二维数组中的查找在一个二维数组中（每个一维数组的长度相同），每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="gongshiyun.top/2020/02/23/剑指offer解题记录/README.assets/20180507105447745.png">
-<meta property="og:image" content="gongshiyun.top/2020/02/23/剑指offer解题记录/README.assets/image-20200129145735077.png">
-<meta property="og:updated_time" content="2020-02-23T11:27:33.491Z">
+<meta property="og:image" content="gongshiyun.top/2020/02/23/剑指offer解题记录/image/20180507105447745.png">
+<meta property="og:image" content="gongshiyun.top/2020/02/23/剑指offer解题记录/image/image-20200129145735077.png">
+<meta property="og:updated_time" content="2020-09-30T17:35:51.742Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="剑指offer解题记录">
 <meta name="twitter:description" content="剑指offer编程题练习前言本文记录本人剑指offer编程题的解题思路，题目从牛客网获取，地址https://www.nowcoder.com/ta/coding-interviews?page=11.二维数组中的查找在一个二维数组中（每个一维数组的长度相同），每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个函数，输入这样的一个二维数组和一个整数，判断数组中是否含">
-<meta name="twitter:image" content="gongshiyun.top/2020/02/23/剑指offer解题记录/README.assets/20180507105447745.png">
+<meta name="twitter:image" content="gongshiyun.top/2020/02/23/剑指offer解题记录/image/20180507105447745.png">
 
 <link rel="canonical" href="gongshiyun.top/2020/02/23/剑指offer解题记录/">
 
@@ -252,10 +252,16 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-02-23 19:26:26 / 修改时间：19:27:33" itemprop="dateCreated datePublished" datetime="2020-02-23T19:26:26+08:00">2020-02-23</time>
+              <time title="创建时间：2020-02-23 19:26:26" itemprop="dateCreated datePublished" datetime="2020-02-23T19:26:26+08:00">2020-02-23</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-10-01 01:35:51" itemprop="dateModified" datetime="2020-10-01T01:35:51+08:00">2020-10-01</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
@@ -319,7 +325,7 @@
 <h2 id="4-重建二叉树"><a href="#4-重建二叉树" class="headerlink" title="4.重建二叉树"></a>4.重建二叉树</h2><p>输入某二叉树的前序遍历和中序遍历的结果，请重建出该二叉树。假设输入的前序遍历和中序遍历的结果中都不含重复的数字。例如输入前序遍历序列{1,2,4,7,3,5,6,8}和中序遍历序列{4,7,2,1,5,3,8,6}，则重建二叉树并返回。</p>
 <p><strong>解题思路：</strong></p>
 <p>说实话，看了题目我也有点懵，啥是前序遍历和中序遍历？好像还有个叫后序遍历吧，都已经忘了，那就重新捡起来吧！</p>
-<p><img src="README.assets/20180507105447745.png" alt="img"></p>
+<p><img src="image/20180507105447745.png" alt="img"></p>
 <p><strong>前序遍历：</strong></p>
 <p>对于当前节点，先输出该节点，然后输出他的左孩子，最后输出他的右孩子。对应顺序为ABC</p>
 <p><strong>中序遍历：</strong></p>
@@ -330,7 +336,7 @@
 <p>如题目所述的前序遍历序列{1,2,4,7,3,5,6,8}和中序遍历序列{4,7,2,1,5,3,8,6}，根节点是1，从中序遍历序列知道，{4，7，2}是左子树的中序遍历序列，{5，3，8，6}是右子树的中序遍历序列。再从前序遍历序列中知道，{2，4，7}是左子树的前序遍历序列，{3，5，6，8}是右子树的前序遍历序列</p>
 <p>对于左子树：2是根节点，{4，7}是左子树的中序遍历序列，{4，7}是左子树的前序遍历序列。通过前序遍历序列得知4是左子树根结点，由中序遍历序列{4，7}可知，7是右子树的前序遍历序列。</p>
 <p>按照这套逻辑，最后得出树如下：</p>
-<p><img src="README.assets/image-20200129145735077.png" alt="image-20200129145735077"></p>
+<p><img src="image/image-20200129145735077.png" alt="img"></p>
 <p>总结一下，递归重建二叉树的逻辑：</p>
 <p>1.通过前序遍历序列的第一位开始遍历，是树的根节点</p>
 <p>2.在中序遍历序列中，找到该根结点数，左右两边的序列就是左子树和右子树的中序遍历序列，得出左子树节点数量A和右子树的节点数量B</p>
@@ -485,6 +491,9 @@
             <span class="post-nav-divider"></span>
 
             <div class="post-nav-prev post-nav-item">
+                <a href="/2020/10/01/LinkedList源码分析/" rel="prev" title="LinkedList源码分析">
+                  LinkedList源码分析 <i class="fa fa-chevron-right"></i>
+                </a>
             </div>
           </div>
       </footer>
@@ -543,7 +552,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">10</span>
+          <span class="site-state-item-count">11</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
